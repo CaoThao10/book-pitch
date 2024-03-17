@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+
+import MenuComponent from "./components/MenuComponent";
+import LogInPage from "./page/LogInPage";
+import Register from "./page/Register";
+import HomePage from "./page/UserDashboard/HomePage";
+import About from "./page/UserDashboard/About";
+import Pitch from "./page/UserDashboard/Pitch";
+import DetailPage from "./page/UserDashboard/DetailPage";
+import PricePage from "./page/UserDashboard/PricePage";
+import Infomation from "./page/UserDashboard/Infomation";
+// import LogInPage from "./page/LogInPage";
+// import ListSan from "./page/AdminDashboard/ListSan";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/san" element={<Pitch />} />
+        <Route path="/chi-tiet" element={<DetailPage />} />
+        <Route path="/bang-gia" element={<PricePage />} />
+        <Route path="/thong-tin-ca-nhan" element={<Infomation />} />
+
+        <Route path="/log-in" element={<LogInPage />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/*" element={<MenuComponent />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
