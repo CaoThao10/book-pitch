@@ -50,7 +50,7 @@ const Banner = () => {
           </div>
         </Carousel>
       </div>
-      <div className="absolute flex items-center bg-[#ebebeb] rounded-lg justify-center gap-5 flex-col top-[50%]  left-[50%] translate-x-[-50%]  translate-y-[-50%]  p-5">
+      {/* <div className="absolute flex items-center bg-[#ebebeb] rounded-lg justify-center gap-5 flex-col top-[50%]  left-[50%] translate-x-[-50%]  translate-y-[-50%]  p-5">
         <span className="text-[#c91515] text-2xl font-semibold">
           Đặt sân bóng online, không lo về giá
           <br /> Chỉ từ 300.000vnđ
@@ -58,7 +58,7 @@ const Banner = () => {
         <button className="bg-green-600 hover:bg-green-400 w-[150px] px-3 py-1 text-2xl text-white font-medium rounded-lg">
           Đặt ngay
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

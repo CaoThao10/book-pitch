@@ -10,21 +10,21 @@ const dataPopular1 = [
     img: "/san2.jpg",
     title: "Đà Nẵng-Thành phố Đà Nẵng",
     price: "1.000.000",
-    link: "/",
+    link: "/chi-tiet",
   },
 
   {
     img: "/san4.jpg",
     title: "Đà Nẵng-Thành phố Đà Nẵng",
     price: "1.000.000",
-    link: "/",
+    link: "/chi-tiet",
   },
 
   {
     img: "/san7.jpg",
     title: "Đà Nẵng-Thành phố Đà Nẵng",
     price: "1.000.000",
-    link: "/",
+    link: "/chi-tiet",
   },
 ];
 
@@ -39,25 +39,31 @@ const dataNew = [
     img: "/san2.jpg",
     location: "Ho Chi Minh",
     quantity: "5 sân",
-    link: "/",
+    link: "/chi-tiet",
   },
   {
     img: "/san4.jpg",
     location: "Da Lat",
     quantity: "5 sân",
-    link: "/",
+    link: "/chi-tiet",
   },
   {
     img: "/san7.jpg",
     location: "Ha Noi",
     quantity: "3 sân",
-    link: "/",
+    link: "/chi-tiet",
   },
   {
     img: "/san8.jpg",
     location: "Ho Chi Minh",
     quantity: "5 sân",
-    link: "/",
+    link: "/chi-tiet",
+  },
+  {
+    img: "/san10.jpg",
+    location: "Ho Chi Minh",
+    quantity: "5 sân",
+    link: "/chi-tiet",
   },
 ];
 

@@ -43,7 +43,7 @@ function ItemPopular({ img, title, price, link }) {
           </h4>
           <a href={link}>
             <button className="border rounded-xl px-2 py-1 text-white hover:bg-yellow-400 hover:border-transparent">
-              Đặt ngay
+              Chi tiết
             </button>
           </a>
         </div>

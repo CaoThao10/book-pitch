@@ -10,7 +10,7 @@ const New = ({ data }) => {
           </span>
         </div>
       </div>
-      <div className="mx-[150px] my-5 grid grid-cols-5 gap-2">
+      <div className=" my-5 grid grid-cols-6 gap-2">
         {data.map((item, index) => (
           <ItemTour
             key={index}
@@ -40,7 +40,7 @@ function ItemTour({ img, location, quantity, link }) {
         <h3>{quantity}</h3>
         <a href={link}>
           <button className="border rounded-xl px-2 py-1 text-white hover:bg-yellow-400 hover:border-transparent">
-            Đặt ngay
+            Chi tiết
           </button>
         </a>
       </div>

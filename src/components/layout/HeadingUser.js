@@ -13,6 +13,15 @@ const items: MenuProps["items"] = [
       </a>
     ),
   },
+  {
+    key: "1",
+    label: (
+      // <a target="_blank" rel="noopener noreferrer" href="/thong-tin-ca-nhan">
+      //   Thông tin cá nhân
+      // </a>
+      <button>Đăng xuất</button>
+    ),
+  },
 ];
 
 const HeadingUser = () => {
@@ -34,9 +43,9 @@ const HeadingUser = () => {
           <NavLink className="hover:text-green-400" to={"/about"}>
             Giới thiệu
           </NavLink>
-          <NavLink className="hover:text-green-400" to={"/san"}>
+          {/* <NavLink className="hover:text-green-400" to={"/san"}>
             Đặt sân
-          </NavLink>
+          </NavLink> */}
           <NavLink className="hover:text-green-400" to={"/bang-gia"}>
             Bảng giá
           </NavLink>
@@ -55,7 +64,7 @@ const HeadingUser = () => {
               <a onClick={(e) => e.preventDefault()}>
                 <Space>
                   <img
-                    className="object-cover h-[40px] w-[40px] rounded-full"
+                    className="object-cover  h-[40px] w-[40px] rounded-full"
                     src="/avatar.jpg"
                     alt=""
                   />
